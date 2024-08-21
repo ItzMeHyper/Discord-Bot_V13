@@ -166,7 +166,7 @@ client.on('interactionCreate', async interaction => {
 
 
 // Bot Login
-//client.login(`OTk1NjE0Mjc5NzM2NzYyMzc4.GysAU_.5P_7dYVY5vI9RSrfMmDV9Q9orBl8C_oRrVLMj8`).then(() => {
+client.login(`BOT Token`).then(() => {
   client.user.setPresence({ activities: [{ name: 'a random game', type: 'PLAYING' }], status: 'idle' });
 //});
 
